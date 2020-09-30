@@ -1,0 +1,232 @@
+body{
+
+	/* background-color:#93AED6; */
+	/* background-color: #ffcc66; */
+	background-color: #FFCC00
+	text-align:center;
+	/* font-family:"Arial", "sans-serif";*/
+  	font-family: "Verdana";
+  	font-size: 12px;
+	padding:20px 10px 10px 0px;
+	margin:10px;
+
+}
+
+/* Style of links	*/
+/* At top of page */
+a.baritem	{
+/*	display: block; */
+  	color: #93AED6;
+;
+/*	float: left; */
+	text-align: center;
+	background: #f0f0f7;
+  	text-decoration: none;
+  	border: 1px solid #000066;
+  	padding: 2 12 2 12;
+  	margin: 10 0 0 0;
+  	}
+a.baritem:link{
+  color:#000066;
+  }
+a.baritem:visited{
+  color:#000066;
+  }
+a.baritem:hover{
+  background: #d2e2FF;
+  }
+a.baritem:active{
+  background: #ffffff;
+  }
+
+/* For thumbnails to link to larger images */
+a.image	{
+	}
+a.image:link{
+  color:#000000;
+  }
+a.image:visited{
+  color:#000000;
+  }
+a.image:hover{
+  background: #FFFFFF;
+  }
+a.image:active{
+  background: #FFFFFF;
+  }
+/* For removing underlines from the links*/
+a:link {text-decoration:none;color:#660066;font-weight:bold;}
+a:visited {text-decoration:none;font-weight:bold;}
+a:hover {text-decoration:underline;color:#FF9900;font-weight:bold;}
+a:active {text-decoration:underline;font-weight:bold;}
+
+/* Style of text and headings */
+p {
+  text-align: left;
+  font-family: Verdana;
+  font-size: 12px;
+  margin-left: 10px; 
+  } 
+p.indent{
+  	padding-left:10px;
+}
+p.central{
+	text-align:center;
+	}
+h1{
+  text-align: center;
+  font-size: 32px;
+}
+h2{
+  text-align: center;
+  font-family: "Verdana";
+  font-size: 14px
+}
+
+/* Style of structural elements and frames */
+table	{
+}
+tr#top {
+	vertical-align: top;
+}
+
+/* sets the frame within the page - white inside */
+
+div#outerbox{
+	margin: auto;  /* or set to 20px */ 
+	background-color:#ffffff;   	
+	border:solid 1px #000066;
+	text-align: center;
+	height: auto;
+	padding: 20px;
+}
+
+div#innerbox{
+	margin: auto;  /* or set to 20px */
+	background-color:#A0CFEC;
+	border:solid 1px #000066;
+	text-align: center;
+	height: auto;
+	padding: 50px;
+}
+div#sidebox{
+	border:2px white;
+	margin-left:10px;
+	}
+	
+div#textbox{
+	padding:10px;
+	border:2px white;
+	margin-left:280px; 
+	margin-right:150px;
+	position:relative;
+	top:-500px;
+
+}
+div#belowtextbox{
+	padding:5px;
+	border:2px white;
+	margin-left:10px; 
+	margin-right:10px;
+	
+}	
+/* sets the dark border around the photos */
+img#wframe{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000066;
+	margin: 20px 60px 20px 60px;
+}
+img#thumbn{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000066;
+}
+
+/* sets the menu bar at the top of the innerbox. Display should be inline or table for centering the menu */
+
+#bar{
+/*	border:solid 1px #000000; */
+	margin: auto;
+	height: 20px;
+	padding: 10px; 
+  	font-family: "Verdana";
+  	font-size: 12px;
+ 	display: inline;
+ 	text-align: center;
+  	}
+
+/* settings for each list item  */
+
+#bar li{
+	border: 1px solid #fff; 
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+	float: none; 
+	padding: 10 5 0 5;
+	}
+
+#bar ul{
+	text-align: center;
+	}
+
+ul{
+
+  	font-family: "Verdana";
+  	font-size: 12px;
+	}
+	
+div#ribbon{
+	height: 600px;
+	overflow: auto;
+	text-align: center;
+	margin: 20px;
+	width: 190px;
+	}
+	
+#ribbon a img {
+	margin: 0px;
+	vertical-align: middle;
+	}
+	
+div.pos_thumbs
+	{
+	position:absolute;
+	top:650px;
+	width: 100%;
+	text-align:center;
+	}
+
+/* copied from other site to get photo gallery  */
+
+p.centredImage 
+	{
+	text-align: center;
+	margin: 0px:
+	padding: 0px;
+	}	
+	
+	img.wframe
+	{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	margin: 0px;
+	float: center;
+	}
+	img.landscape350px
+	{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 20px;
+	padding: 20px
+	float: center;
+	}
+	img.thumbn
+	{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white
+	}
