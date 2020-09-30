@@ -1,0 +1,104 @@
+
+/*To make top margin smaller*/
+
+.callout.large {
+    padding: 2rem;
+}
+
+.callout {
+    margin: 0 0 0rem;
+}
+
+/*To give a bottom margin to the nav bar*/
+
+.top-bar {
+    margin-bottom: 1.5rem;
+}
+
+/* For the menu bar */
+
+/* Variables */
+/* Small Navigation */
+.logo-small {
+    float: right; }
+
+.title-bar {
+    padding: 0 .5rem; }
+
+.menu-icon,
+.title-bar-title {
+    position: relative;
+    top: 10px; }
+
+/* Medium-Up Navigation */
+@media only screen and (min-width: 40rem) {
+    .logo-wrapper {
+        position: relative; }
+    .logo-wrapper .logo {
+        width: 118px;
+        height: 92px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: -6px;
+        margin-left: -59px; }
+
+    .top-bar-right {
+        width: 50%;
+        /*padding-left: 86px; */
+    }
+    .top-bar-right ul {
+        float: left; }
+
+    .top-bar-left {
+        width: 50%;
+        /*padding-right: 86px; */
+    }
+    .top-bar-left ul {
+        float: right; } }
+
+/*Menu bar colour*/
+.top-bar, .top-bar ul {
+    background-color: #0C4D78;
+}
+@media only screen and (min-width: 40rem) {
+
+    .intro-list {
+        padding-top: 3em;
+        /*padding-left: 4em;*/
+        font-size: 130%;
+
+    }
+    .intro-list i{
+        padding-right: 1em;
+    }
+}
+
+.title-bar {
+    background: #0a0a0a;
+    background-color: #0C4D78;
+}
+a {
+    color: #DFD6A7
+
+}
+a.blue {
+    color: #0C4D78;
+}
+.top-bar a {
+    color: wheat;
+}
+
+a.intext{
+    color: #0C4D78;
+}
+
+a:focus, a:hover {
+    color: #ffae00;
+}
+ p.quote{
+     font-weight: bold;
+     font-style: italic;
+     margin-bottom: 0;
+
+ }
